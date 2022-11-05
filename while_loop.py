@@ -18,7 +18,7 @@ def main():
         # process & output
         while loop_counter < int_integer:
             loop_counter = loop_counter + 1
-            answer = (answer + loop_counter)
+            answer = answer + loop_counter
         print(
             "The sum of all the positive numbers from 1 to "
             + str(int_integer)
