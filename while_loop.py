@@ -20,10 +20,10 @@ def main():
             loop_counter = loop_counter + 1
             answer = (answer + loop_counter)
         print(
-            "The sum of all the positive numbers from 1 to " 
+            "The sum of all the positive numbers from 1 to "
             + str(int_integer)
             + " "
-            + "is {0}".format(answer)
+            + "is {0}.".format(answer)
         )
 
     except ValueError:
